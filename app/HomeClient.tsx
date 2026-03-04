@@ -6,10 +6,10 @@ import CallIcon from '@mui/icons-material/Call';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SectionHeading from '@/components/ui/SectionHeading';
-import ProjectCard from '@/components/molecules/ProjectCard';
-import TestimonialCard from '@/components/molecules/TestimonialCard';
-import ServiceCard from '@/components/molecules/ServiceCard';
-import WhyChooseUs from '@/components/organisms/WhyChooseUs';
+import ProjectCard from '@/components/cards/ProjectCard';
+import TestimonialCard from '@/components/cards/TestimonialCard';
+import ServiceCard from '@/components/cards/ServiceCard';
+import WhyChooseUs from '@/components/sections/WhyChooseUs';
 import { motion, Variants } from 'framer-motion';
 
 interface HomeClientProps {

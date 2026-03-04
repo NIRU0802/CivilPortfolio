@@ -209,7 +209,7 @@ export default function Footer() {
                                 <Box sx={{ display: 'flex', gap: 2 }}>
                                     <PhoneIcon sx={{ color: '#2563EB', fontSize: '1.2rem', mt: 0.3 }} />
                                     <Box>
-                                        <Typography sx={{ color: 'white', fontWeight: 600, fontSize: '0.9rem' }}>+91 98765 43210</Typography>
+                                        <Typography sx={{ color: 'white', fontWeight: 600, fontSize: '0.9rem' }}>+91 12345 67890</Typography>
                                         <Typography sx={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.4)' }}>Mon – Sat, 9am – 7pm</Typography>
                                     </Box>
                                 </Box>

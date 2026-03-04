@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
 import SectionHeading from '@/components/ui/SectionHeading';
-import ProjectCard from '@/components/molecules/ProjectCard';
+import ProjectCard from '@/components/cards/ProjectCard';
 import { projects } from '@/lib/data/projects';
 
 const categoryFilters = [

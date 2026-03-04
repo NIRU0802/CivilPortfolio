@@ -5,7 +5,7 @@ import Link from 'next/link';
 import CallIcon from '@mui/icons-material/Call';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import SectionHeading from '@/components/ui/SectionHeading';
-import ServiceCard from '@/components/molecules/ServiceCard';
+import ServiceCard from '@/components/cards/ServiceCard';
 import { motion, Variants } from 'framer-motion';
 
 interface ServicesClientProps {

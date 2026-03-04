@@ -23,7 +23,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import CallIcon from '@mui/icons-material/Call';
 import { getProjectBySlug } from '@/lib/data/projects';
-import InquiryForm from '@/components/organisms/InquiryForm';
+import InquiryForm from '@/components/sections/InquiryForm';
 
 // RoomViewer is currently missing from the codebase
 // const RoomViewer = dynamic(() => import('@/components/3d/room/RoomViewer'), { ssr: false });

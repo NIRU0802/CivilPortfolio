@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import { MuiProvider } from '@/theme/MuiProvider';
-import Navbar from '@/components/organisms/Navbar';
-import Footer from '@/components/organisms/Footer';
-import ClientSideWrapper from '@/components/core/ClientSideWrapper';
-import PageBackground from '@/components/core/PageBackground';
+import Navbar from '@/components/sections/Navbar';
+import Footer from '@/components/sections/Footer';
+import ClientSideWrapper from '@/components/layout/ClientSideWrapper';
+import PageBackground from '@/components/layout/PageBackground';
 
 const inter = Inter({
   subsets: ['latin'],
