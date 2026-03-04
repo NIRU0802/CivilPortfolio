@@ -6,13 +6,13 @@ import CallIcon from '@mui/icons-material/Call';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ServiceCard from '@/components/molecules/ServiceCard';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface ServicesClientProps {
     services: any[];
 }
 
-const fadeInUp = {
+const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
         opacity: 1,
@@ -21,7 +21,7 @@ const fadeInUp = {
     }
 };
 
-const staggerContainer = {
+const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,

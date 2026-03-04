@@ -10,7 +10,7 @@ import ProjectCard from '@/components/molecules/ProjectCard';
 import TestimonialCard from '@/components/molecules/TestimonialCard';
 import ServiceCard from '@/components/molecules/ServiceCard';
 import WhyChooseUs from '@/components/organisms/WhyChooseUs';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface HomeClientProps {
     featuredProjects: any[];
@@ -19,12 +19,12 @@ interface HomeClientProps {
     stats: any[];
 }
 
-const fadeInUp = {
+const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
 };
 
-const staggerContainer = {
+const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { staggerChildren: 0.12 } }
 };

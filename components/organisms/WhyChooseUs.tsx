@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Box, Container, Grid, Typography, useTheme } from '@mui/material';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import GroupsIcon from '@mui/icons-material/Groups';
@@ -44,7 +44,7 @@ const advantages = [
     },
 ];
 
-const fadeInUp = {
+const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 15 },
     visible: {
         opacity: 1,
@@ -53,7 +53,7 @@ const fadeInUp = {
     }
 };
 
-const staggerContainer = {
+const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,

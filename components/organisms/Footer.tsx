@@ -160,7 +160,7 @@ export default function Footer() {
                         </Grid>
 
                         {/* Quick Links Column */}
-                        <Grid item xs={6} md={3}>
+                        <Grid size={{ xs: 6, md: 3 }}>
                             <Typography
                                 sx={{
                                     color: 'white',
@@ -192,7 +192,7 @@ export default function Footer() {
                         </Grid>
 
                         {/* Contact Column */}
-                        <Grid item xs={6} md={4}>
+                        <Grid size={{ xs: 6, md: 4 }}>
                             <Typography
                                 sx={{
                                     color: 'white',

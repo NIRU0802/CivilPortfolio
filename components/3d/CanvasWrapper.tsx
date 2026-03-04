@@ -17,7 +17,6 @@ export default function CanvasWrapper({ children }: CanvasWrapperProps) {
                 antialias: true,
                 alpha: false,
                 powerPreference: "high-performance",
-                clearColor: '#050D1C',
             }}
             dpr={[1, 2]}
             style={{
