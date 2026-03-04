@@ -1,0 +1,36 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- DEFINITIONS -->
+  <defs>
+    <linearGradient id="blueprintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND GRID (Subtle Engineering Feel) -->
+  <rect width="1000" height="1000" fill="none" />
+  <path d="M 0 500 L 1000 500 M 500 0 L 500 1000" stroke="#1E40AF" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- MAIN ISOMETRIC MODULE: THE STUDIO CORE -->
+  <g transform="translate(0, 50)">
+    <!-- FOUNDATION SLAB -->
+    <path d="M200 700 L500 850 L800 700 L500 550 Z" fill="url(#blueprintGrad)" stroke="#1E40AF" stroke-width="1"/>
+    
+    <!-- VERTICAL STRUCTURAL RIBS -->
+    <g stroke="#2563EB" stroke-width="2">
+        <path d="M200 700 L200 400" />
+        <path d="M500 850 L500 550" />
+        <path d="M800 700 L800 400" />
+        <path d="M500 550 L500 250" />
+    </g>
+
+    <!-- UPPER FLOOR PLATE -->
+    <path d="M200 450 L500 600 L800 450 L500 300 Z" fill="rgba(59, 130, 246, 0.1)" stroke="#1D4ED8" stroke-width="1.5"/>
+    
+    <!-- ROOF CANTILEVER -->
+    <path d="M350 250 L500 325 L650 250 L500 175 Z" fill="rgba(30, 58, 138, 0.4)" stroke="#1E3A8A" stroke-width="2"/>
+    <path d="M350 250 L350 350 L500 425 L500 325 Z" fill="rgba(30, 58, 138, 0.5)" stroke="#1E3A8A"/>
+    <path d="M500 325 L500 425 L650 350 L650 250 Z" fill="rgba(30, 58, 138, 0.3)" stroke="#1E3A8A"/>
+  </g>
+
+</svg>

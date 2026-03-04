@@ -1,0 +1,51 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- LUXURY VILLA BLUEPRINT -->
+  <defs>
+    <linearGradient id="villaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(100, 100) scale(0.8)">
+    <!-- MAIN STRUCTURE -->
+    <!-- GROUND FLOOR -->
+    <path d="M100 700 L500 850 L900 700 L500 550 Z" fill="url(#villaGrad)" stroke="#2563EB" stroke-width="1.5"/>
+    
+    <!-- FIRST FLOOR (CANTILEVERED) -->
+    <path d="M150 450 L550 600 L950 450 L550 300 Z" fill="rgba(59, 130, 246, 0.15)" stroke="#3B82F6" stroke-width="2"/>
+    
+    <!-- CONNECTING COLUMNS -->
+    <g stroke="#60A5FA" stroke-width="1" stroke-dasharray="5 5">
+      <path d="M150 450 L150 700" />
+      <path d="M550 600 L500 850" />
+      <path d="M950 450 L900 700" />
+      <path d="M550 300 L500 550" />
+    </g>
+
+    <!-- ROOF SLAB -->
+    <path d="M300 250 L550 350 L800 250 L550 150 Z" fill="rgba(30, 58, 138, 0.4)" stroke="#1E40AF" stroke-width="2"/>
+    
+    <!-- ARCHITECTURAL ACCENTS -->
+    <!-- POOL AREA -->
+    <path d="M550 800 L850 900 L950 850 L650 750 Z" fill="rgba(37, 99, 235, 0.2)" stroke="#2563EB" stroke-width="1"/>
+    
+    <!-- GLASS FACADE LINES -->
+    <g stroke="white" stroke-opacity="0.2" stroke-width="0.5">
+      <path d="M200 480 L200 550" />
+      <path d="M300 520 L300 590" />
+      <path d="M400 560 L400 630" />
+    </g>
+  </g>
+
+  <!-- MEASUREMENT LINES (Technical Look) -->
+  <g stroke="#1E40AF" stroke-width="0.5" stroke-opacity="0.3">
+    <path d="M50 100 L50 900" />
+    <path d="M40 100 L60 100" />
+    <path d="M40 900 L60 900" />
+    
+    <path d="M100 950 L900 950" />
+    <path d="M100 940 L100 960" />
+    <path d="M900 940 L900 960" />
+  </g>
+</svg>
