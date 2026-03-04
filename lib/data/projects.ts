@@ -13,12 +13,12 @@ export const projects: Project[] = [
         area: '4,800 sq ft',
         description: 'A bespoke 4-bedroom luxury villa with modern architecture and sustainable design principles.',
         longDescription: `The Greenwood Luxury Villa stands as a testament to modern residential engineering. This 4,800 sq ft home integrates sustainable building practices with premium finishes, featuring reinforced concrete structure, energy-efficient double-glazed windows, and a solar panel rooftop system. The design maximizes natural light while maintaining structural integrity across seismic zone II specifications. Every detail, from the cantilever porch to the rooftop garden, reflects precision engineering and aesthetic sensibility.`,
-        coverImage: { src: '/images/projects/villa-cover.jpg', alt: 'Greenwood Luxury Villa Facade', width: 800, height: 600 },
+        coverImage: { src: '/projects/villa-cover.png', alt: 'Greenwood Luxury Villa Facade', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/villa-1.jpg', alt: 'Villa Exterior', width: 800, height: 600 },
-            { src: '/images/projects/villa-2.jpg', alt: 'Villa Interior Living Room', width: 800, height: 600 },
-            { src: '/images/projects/villa-3.jpg', alt: 'Villa Garden', width: 800, height: 600 },
-            { src: '/images/projects/villa-4.jpg', alt: 'Villa Kitchen', width: 800, height: 600 },
+            { src: '/projects/villa-1.png', alt: 'Villa Exterior', width: 800, height: 600 },
+            { src: '/projects/villa-2.png', alt: 'Villa Interior Living Room', width: 800, height: 600 },
+            { src: '/projects/villa-3.png', alt: 'Villa Garden', width: 800, height: 600 },
+            { src: '/projects/villa-4.png', alt: 'Villa Kitchen', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Built-up Area', value: '4,800 sq ft' },
@@ -44,11 +44,11 @@ export const projects: Project[] = [
         area: '28,000 sq ft',
         description: 'A 5-floor Grade-A commercial office complex with modern amenities and LEED-certified green building design.',
         longDescription: `The TechPark Commercial Complex is a landmark office development in Electronic City. Spanning 28,000 sq ft across 5 floors, this LEED Gold certified building features a post-tensioned flat slab structure, VRF air conditioning system, and 100% power backup. The facade incorporates high-performance structural glazing with a double-skin curtain wall system that reduces solar heat gain by 40%, minimizing operational energy costs. The building accommodates 600+ employees with state-of-the-art conference facilities and a rooftop amenity deck.`,
-        coverImage: { src: '/images/projects/techpark-cover.jpg', alt: 'TechPark Commercial Complex', width: 800, height: 600 },
+        coverImage: { src: '/projects/techpark-cover.png', alt: 'TechPark Commercial Complex', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/techpark-1.jpg', alt: 'Commercial Exterior', width: 800, height: 600 },
-            { src: '/images/projects/techpark-2.jpg', alt: 'Office Lobby', width: 800, height: 600 },
-            { src: '/images/projects/techpark-3.jpg', alt: 'Open Office Floor', width: 800, height: 600 },
+            { src: '/projects/techpark-1.png', alt: 'Commercial Exterior', width: 800, height: 600 },
+            { src: '/projects/techpark-2.png', alt: 'Office Lobby', width: 800, height: 600 },
+            { src: '/projects/techpark-3.png', alt: 'Open Office Floor', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Total Area', value: '28,000 sq ft' },
@@ -73,11 +73,11 @@ export const projects: Project[] = [
         area: '12 Acres',
         description: 'A planned township development with 120 residential plots, internal roads, drainage, and community amenities.',
         longDescription: `Serene Valley Township is a meticulously planned residential layout spanning 12 acres in Devanahalli. The project includes 120 BDA-compliant residential plots ranging from 1,200 to 3,600 sq ft, with 30% green space allocation, underground drainage system, 40-ft wide internal BM roads, streetlighting, and a dedicated 1-acre community park. Site leveling involved 45,000 cubic meters of earth work with engineered retaining structures. The development is RERA registered and includes all utility connections.`,
-        coverImage: { src: '/images/projects/township-cover.jpg', alt: 'Serene Valley Township Layout', width: 800, height: 600 },
+        coverImage: { src: '/projects/township-cover.png', alt: 'Serene Valley Township Layout', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/township-1.jpg', alt: 'Layout Plan', width: 800, height: 600 },
-            { src: '/images/projects/township-2.jpg', alt: 'Road Construction', width: 800, height: 600 },
-            { src: '/images/projects/township-3.jpg', alt: 'Amenity Area', width: 800, height: 600 },
+            { src: '/projects/township-1.png', alt: 'Layout Plan', width: 800, height: 600 },
+            { src: '/projects/township-2.png', alt: 'Road Construction', width: 800, height: 600 },
+            { src: '/projects/township-3.png', alt: 'Amenity Area', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Total Land', value: '12 Acres' },
@@ -101,11 +101,11 @@ export const projects: Project[] = [
         area: '52,000 sq ft',
         description: 'A premium G+7 apartment complex with 48 units, rooftop pool, and panoramic lake views.',
         longDescription: `The Riverside Apartment Complex is a premium mid-rise development offering 48 luxury apartments across a G+7 structure in Hebbal, with breathtaking views of Hebbal Lake. Each unit ranges from 1,400 to 2,200 sq ft, featuring private balconies, modular kitchens, and smart home integration. Structural design incorporates seismic zone III specifications with dual shear wall cores for lateral stability. Amenities include a rooftop infinity pool, clubhouse, gymnasium, and landscaped podium garden.`,
-        coverImage: { src: '/images/projects/riverside-cover.jpg', alt: 'Riverside Apartment Complex', width: 800, height: 600 },
+        coverImage: { src: '/projects/riverside-cover.png', alt: 'Riverside Apartment Complex', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/riverside-1.jpg', alt: 'Apartment Exterior', width: 800, height: 600 },
-            { src: '/images/projects/riverside-2.jpg', alt: 'Rooftop Pool', width: 800, height: 600 },
-            { src: '/images/projects/riverside-3.jpg', alt: 'Apartment Interior', width: 800, height: 600 },
+            { src: '/projects/riverside-1.png', alt: 'Apartment Exterior', width: 800, height: 600 },
+            { src: '/projects/riverside-2.png', alt: 'Rooftop Pool', width: 800, height: 600 },
+            { src: '/projects/riverside-3.png', alt: 'Apartment Interior', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Total Area', value: '52,000 sq ft' },
@@ -129,10 +129,10 @@ export const projects: Project[] = [
         area: '15,000 sq ft',
         description: 'A 3-floor retail and office mixed-use building with high street visibility and underground parking.',
         longDescription: `Sunrise Retail Plaza is a high-footfall commercial asset in the heart of Koramangala. The project features ground and first floor retail spaces with mezzanine, and second floor flexible office suites. Underground parking for 35 vehicles with a mechanical parking lift system maximizes the limited plot area. The building's steel-frame structure with precast concrete facade panels allowed for faster construction timelines, completing 3 months ahead of schedule.`,
-        coverImage: { src: '/images/projects/retail-cover.jpg', alt: 'Sunrise Retail Plaza', width: 800, height: 600 },
+        coverImage: { src: '/projects/sunrise-retail-plaza-cover.png', alt: 'Sunrise Retail Plaza', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/retail-1.jpg', alt: 'Retail Facade', width: 800, height: 600 },
-            { src: '/images/projects/retail-2.jpg', alt: 'Interior Atrium', width: 800, height: 600 },
+            { src: '/projects/sunrise-retail-plaza-exterior.png', alt: 'Retail Facade', width: 800, height: 600 },
+            { src: '/projects/sunrise-retail-plaza-atrium.png', alt: 'Interior Atrium', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Total Area', value: '15,000 sq ft' },
@@ -156,9 +156,9 @@ export const projects: Project[] = [
         area: '8 Acres',
         description: 'A gated community of 24 eco-designed villas with rainwater harvesting, solar power, and organic landscape.',
         longDescription: `The Eco Villa Community is an upcoming sustainable residential enclave in Sarjapur. This visionary project comprises 24 individual eco-designed villas ranging from 3,000 to 5,500 sq ft on plots of 4,500 to 7,200 sq ft. Each villa will integrate rooftop solar (10KW), rainwater collection and recycling, greywater treatment, and passive cooling architecture reducing AC load by 35%. The community will feature an organic farm, EV charging bays, and fiber optic connectivity throughout.`,
-        coverImage: { src: '/images/projects/eco-cover.jpg', alt: 'Eco Villa Community Concept', width: 800, height: 600 },
+        coverImage: { src: '/projects/eco-villa-community-cover.png', alt: 'Eco Villa Community Concept', width: 800, height: 600 },
         images: [
-            { src: '/images/projects/eco-1.jpg', alt: 'Eco Villa Concept', width: 800, height: 600 },
+            { src: '/projects/eco-villa-community-villa.png', alt: 'Eco Villa Concept', width: 800, height: 600 },
         ],
         specs: [
             { label: 'Land Area', value: '8 Acres' },

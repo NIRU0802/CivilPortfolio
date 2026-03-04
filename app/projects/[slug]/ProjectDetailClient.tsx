@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { notFound } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
     Box,
     Button,
@@ -138,40 +139,30 @@ export default function ProjectDetailClient({ slug }: { slug: string }) {
 
                             {/* Image Gallery */}
                             <Box sx={{ mb: 5 }}>
-                                {/* Main Image Placeholder */}
+                                {/* Main Image */}
                                 <Box
                                     sx={{
                                         height: { xs: 260, md: 440 },
                                         borderRadius: '8px',
-                                        background: 'linear-gradient(135deg, #0A1628 0%, #1E3A8A 100%)',
+                                        background: '#E5E7EB',
                                         position: 'relative',
                                         overflow: 'hidden',
                                         mb: 2,
                                     }}
                                 >
-                                    <Box
-                                        aria-hidden="true"
-                                        sx={{
-                                            position: 'absolute', inset: 0,
-                                            backgroundImage: 'linear-gradient(rgba(37,99,235,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(37,99,235,0.15) 1px, transparent 1px)',
-                                            backgroundSize: '32px 32px',
-                                        }}
-                                    />
+                                    {project.images[activeImage]?.src ? (
+                                        <Image
+                                            src={project.images[activeImage].src}
+                                            alt={project.images[activeImage].alt || project.title}
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, 800px"
+                                            style={{ objectFit: 'cover' }}
+                                            priority
+                                        />
+                                    ) : null}
                                     <Box sx={{ position: 'absolute', bottom: 16, left: 16 }}>
                                         <Typography sx={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.08em' }}>
                                             Image {activeImage + 1} / {project.images.length}
-                                        </Typography>
-                                    </Box>
-                                    <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', textAlign: 'center' }}>
-                                        <Typography
-                                            sx={{
-                                                color: 'rgba(255,255,255,0.15)',
-                                                fontFamily: '"Playfair Display", serif',
-                                                fontWeight: 700,
-                                                fontSize: { xs: '1.5rem', md: '2.5rem' },
-                                            }}
-                                        >
-                                            {project.images[activeImage]?.alt}
                                         </Typography>
                                     </Box>
                                 </Box>
@@ -185,15 +176,27 @@ export default function ProjectDetailClient({ slug }: { slug: string }) {
                                                 minWidth: 80,
                                                 height: 60,
                                                 borderRadius: '6px',
-                                                background: 'linear-gradient(135deg, #1E3A8A, #2563EB)',
+                                                background: '#E5E7EB',
                                                 cursor: 'pointer',
                                                 border: activeImage === idx ? '2px solid #2563EB' : '2px solid transparent',
                                                 opacity: activeImage === idx ? 1 : 0.6,
                                                 transition: 'all 0.2s ease',
                                                 '&:hover': { opacity: 1 },
                                                 flexShrink: 0,
+                                                position: 'relative',
+                                                overflow: 'hidden',
                                             }}
-                                        />
+                                        >
+                                            {img.src ? (
+                                                <Image
+                                                    src={img.src}
+                                                    alt={img.alt || `Thumbnail ${idx + 1}`}
+                                                    fill
+                                                    sizes="80px"
+                                                    style={{ objectFit: 'cover' }}
+                                                />
+                                            ) : null}
+                                        </Box>
                                     ))}
                                 </Box>
                             </Box>

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Box, Button, Chip, Typography } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Project } from '@/types';
@@ -55,12 +56,22 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 sx={{
                     position: 'relative',
                     height: 220,
-                    background: 'linear-gradient(135deg, #0A1628 0%, #1E3A8A 100%)',
+                    background: '#E5E7EB',
                     overflow: 'hidden',
                     flexShrink: 0,
                 }}
             >
-                {/* Blueprint grid pattern as placeholder */}
+                {project.coverImage?.src ? (
+                    <Image
+                        src={project.coverImage.src}
+                        alt={project.coverImage.alt || project.title}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        style={{ objectFit: 'cover' }}
+                    />
+                ) : null}
+
+                {/* Blueprint grid pattern overlay */}
                 <Box
                     sx={{
                         position: 'absolute',
